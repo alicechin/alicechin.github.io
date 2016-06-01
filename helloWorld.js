@@ -1,4 +1,4 @@
 function Testing() {
-        document.getElementById("picture").style.height = 75%;
-        document.getElementById("picture").style.width = 75%;
+    document.getElementById("picture").style.height = "80%";
+    document.getElementById("picture").style.width = 'auto';
         }
