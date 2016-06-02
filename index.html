@@ -4,21 +4,22 @@
     <script language = "javascript" src = "helloWorld.js"></script>
     </head>
 
-<body onResize = "Testing();" onLoad = "alert('website Loaded');">
+<body bgcolor="#F0F5FF">
 
 <script language="javascript" type = "text/javascript">
     <!-- Hide JavaScript
-    function Testing() {
-        document.getElementById("picture").style.height = 10%;
-        document.getElementById("picture").style.width = 'auto';
-        }
+   header();
     -->
 </script>
-<no script>
 
-    <img src="pair.jpeg" id = "picture" onClick = "alert('oneclick')"\>
-    <h2> <3 </h2>
-</no>
+<form id = "inputTask">
+    Task: <input name = "name" text = "text" size ="20">
+</form>
+<button onclick = "add()">Add</button>
+
+<div id="toBeDone" align="center"><font face="Baskerville"></font> </div>
+
+<p id="list" align="center"></p>
 
 </body>
 </html>
